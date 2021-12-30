@@ -2,13 +2,20 @@
     margin: 0;
     padding: 0;
 }
+body 
+{
+    background-color: #f8f9fa!important;
+}
 :root {
-    --blue: rgb(25, 91, 129);
-    --gold: gold;
+    --blue: #007bff;
+    --gold:  #ffd633    ;
     --background-color: #f8f9fa;
     --white: #fff;
+    --cream-white: #f8f9fa;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 /* --------------------------------
 |   Header 
 ---------------------------------*/
@@ -16,7 +23,7 @@
 header {
     position: fixed;top: 0;left: 0;;
     width: 100%;
-    padding: 0 100px;
+    padding: 0 50px;
     z-index: 10000;
     box-sizing: border-box;
     background-color: var(--white);
@@ -37,10 +44,10 @@ header nav {
 }
 header nav ul{
     display: flex;
-    padding: 0 50px;
+    padding: 0 0px;
 }
 header nav ul li{
-    padding: 0 20px;
+    padding: 0 15px;
     list-style: none;
 }
 header nav ul li a{
@@ -50,6 +57,8 @@ header nav ul li a{
     color: var(--blue);
     transition: 0.5s;
     font-size: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
 }
 header nav ul li a:hover,
 header nav ul li a.active{
@@ -77,11 +86,13 @@ header .menu-toggle {
 {
     position: relative;
     height: 500px;
-    background: url('../images/slider-2.jpg') no-repeat center center;
+    background: url('../images/slider-4.jpg') no-repeat center center;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     background-color: rgba(0, 0, 255, 0.329);
+    font-family: 'Open Sans Condensed', sans-serif;
+
 }
 .bg-overlay {
     background: rgba(27, 124, 153, 0.39);
@@ -102,13 +113,16 @@ header .menu-toggle {
     padding: 100px;
 }
 #intro-column h1 {
+    font-size: 60px;
     font-weight: bold;
+    color: rgba(255, 217, 0, 0.822)
 
 }
 #intro-column a {
     background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid var(--blue);
+    background-color: var(--blue);
+    color: var(--white);
     letter-spacing: 1px;
     transition: all 0.5s;
     font-size: 15px;
@@ -119,9 +133,88 @@ header .menu-toggle {
 
 
 
+/* --------------------------------
+|   about us 
+---------------------------------*/
+#about 
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 10px;
+    
+}
+.about-header 
+{
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: var(--white);
+}
+.about-descrioption h4
+{
+    margin-bottom: 20px;
+    color: var(--blue)
+}
+
+/* --------------------------------
+|   about us 
+---------------------------------*/
 
 
 
+/* --------------------------------
+|   contact us 
+---------------------------------*/
+#contact 
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.contact-header 
+{
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+   
+    background-color: var(--white);
+}
+
+.contact-info-container 
+{
+
+}
+.contact-info-content 
+{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: var(--cream-white);
+
+}
+.contact-info-content  .icon 
+{
+    text-align: center;
+    flex-grow: 1;
+    font-size: 20px;
+}
+.contact-info-details
+{
+    flex-grow: 5;
+    padding: 2px;
+}
+.contact-info-details h5 {
+    /* font-weight: bold; */
+}
+
+.map-container
+{
+    background-color: var(--cream-white);
+    height: 100%;
+
+}
+/* --------------------------------
+|   contact us 
+---------------------------------*/
 
 
 
@@ -140,7 +233,7 @@ header .menu-toggle {
         position: absolute;
         width: 100%;
         height: calc(100vh - 50px);
-        background-color: black;
+        background-color: var(--cream-white);
         top: 50px;
         left: -100%;
         transition: 0.8s;
@@ -154,6 +247,6 @@ header .menu-toggle {
         width: 100%;
     }
     header nav ul li a {
-        border-bottom: 1px solid #333;
+        border-bottom: 1px solid var(--white);
     }
 }
