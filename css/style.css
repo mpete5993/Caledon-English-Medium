@@ -1,21 +1,29 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body 
 {
-    background-color: #f8f9fa!important;
+    background-color: var(--white)!important;
+    font-family: 'Open Sans Condensed', sans-serif;
+
 }
-:root {
-    --blue: #007bff;
+:root 
+{
+    --blue: #0d779d;
     --gold:  #ffd633    ;
     --background-color: #f8f9fa;
     --white: #fff;
     --cream-white: #f8f9fa;
 }
-html {
+html 
+{
     scroll-behavior: smooth;
 }
+
+
+
 /* --------------------------------
 |   Header 
 ---------------------------------*/
@@ -150,10 +158,25 @@ header .menu-toggle {
     margin-top: 10px;
     background-color: var(--white);
 }
-.about-descrioption h4
+.about-description 
+{
+    margin-bottom: 15px;
+}
+.about-description h4
 {
     margin-bottom: 20px;
     color: var(--blue)
+}
+.about-description a 
+{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.intro-container
+{
+    padding: 0px;
+    margin-top: 10px;
 }
 
 /* --------------------------------
@@ -176,7 +199,6 @@ header .menu-toggle {
     margin-bottom: 10px;
     padding: 10px;
     text-align: center;
-   
     background-color: var(--white);
 }
 
@@ -217,6 +239,157 @@ header .menu-toggle {
 ---------------------------------*/
 
 
+/* --------------------------------
+|  Breadcrumb
+---------------------------------*/
+.search-property {
+    background-color: var(--gold);
+    z-index: 0;
+    margin-top: 60px;
+    height: 150px;
+}
+.property-title {
+    padding: 10px;
+}
+.property-title h5 {
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+}
+.property-title ul {
+    display: flex;
+    padding: 0;
+}
+.property-title ul li {
+    padding: 5px;
+    display: flex;
+    font-size: 12px;
+    color: #fff;
+}
+.property-title ul li a {
+    display: flex;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+/* --------------------------------
+|  Breadcrumb
+---------------------------------*/
+
+
+/* --------------------------------
+|   Register
+---------------------------------*/
+.admission
+{
+    margin-top: 10px;
+}
+.admission h2 
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+.admission h5 
+{
+    font-size: 12px;
+}
+.admission .admission-date
+{
+    color: rgb(229, 16, 16);
+}
+.school-fees  h2
+{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.pre-school-fees  p
+{
+    font-size: 10px;
+}
+.pre-school-fees h5
+{
+font-size: 12px;
+    font-weight: bold;
+    color: rgb(229, 16, 16);
+}
+
+.primary-school-fees h5
+{
+font-size: 12px;
+    font-weight: bold;
+    color: rgb(229, 16, 16);
+}
+.primary-school-fees  p
+{
+    font-size: 10px;
+}
+.fees-per-quarter h5
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.fees-per-quarter .fees-table 
+{
+    background-color: var(--blue);
+    width: 80%;
+    color: var(--white);
+    font-size: 12px;
+    font-weight: normal;
+    border-top: 5px solid var(--gold);
+    padding: 15px;
+}
+.fees-per-quarter .fees-table tr 
+{
+    height: 55px;
+    border-bottom: 1px solid var(--gold);
+    
+    
+}
+.fees-per-quarter h5 
+{
+    margin-top: 10px;
+}
+.download-prospectus
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.download-prospectus p
+{
+    font-size: 15px;
+}
+
+
+.fees-bank-account
+{
+    margin-top: 10px;
+}
+.fees-bank-account h5 
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+.fees-bank-account p 
+{
+    font-size: 15px;
+}
+.school-calendar 
+{
+    margin-top: 20px;
+    font-size: 15px;
+}
+/* --------------------------------
+|   Register
+---------------------------------*/
+
 
 @media (max-width : 991px )
 {
@@ -249,4 +422,29 @@ header .menu-toggle {
     header nav ul li a {
         border-bottom: 1px solid var(--white);
     }
+
+     .fees-per-quarter .fees-table 
+{
+    background-color: var(--blue);
+    width: 100%;
+    color: var(--white);
+    font-size: 12px;
+    font-weight: normal;
+    border-top: 5px solid var(--gold);
+    padding: 15px;
+}
+}
+
+@media (max-width : 665px )
+{
+    .fees-per-quarter .fees-table 
+{
+    background-color: var(--blue);
+    width: 100%;
+    color: var(--white);
+    font-size: 12px;
+    font-weight: normal;
+    border-top: 5px solid var(--gold);
+    padding: 15px;
+}
 }
