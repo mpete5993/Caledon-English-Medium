@@ -247,6 +247,7 @@ header .menu-toggle {
     z-index: 0;
     margin-top: 60px;
     height: 150px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .property-title {
     padding: 10px;
@@ -286,6 +287,7 @@ header .menu-toggle {
 .admission
 {
     margin-top: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .admission h2 
 {
@@ -345,6 +347,7 @@ font-size: 12px;
     font-weight: normal;
     border-top: 5px solid var(--gold);
     padding: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .fees-per-quarter .fees-table tr 
 {
@@ -361,6 +364,7 @@ font-size: 12px;
 {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .download-prospectus p
 {
@@ -371,6 +375,7 @@ font-size: 12px;
 .fees-bank-account
 {
     margin-top: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .fees-bank-account h5 
 {
@@ -385,6 +390,7 @@ font-size: 12px;
 {
     margin-top: 20px;
     font-size: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 /* --------------------------------
 |   Register
