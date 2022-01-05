@@ -44,7 +44,8 @@ header .logo {
     font-size: 24px;
     font-weight: bold;
     color: var(--blue);
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Lobster', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
 }
 
 header nav {
