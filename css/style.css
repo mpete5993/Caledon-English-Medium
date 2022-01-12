@@ -9,16 +9,10 @@ body
     font-family: 'Open Sans Condensed', sans-serif;
 
 }
-<<<<<<< HEAD
 
 :root 
 {
     --blue: #0A94DB;
-=======
-:root 
-{
-    --blue: #0d779d;
->>>>>>> 0d5749e25e9b62ec71304d1cf7b4deb00c29fd02
     --gold:  #ffd633    ;
     --background-color: #f8f9fa;
     --white: #fff;
@@ -50,7 +44,6 @@ header .logo {
     line-height: 50px;
     font-size: 24px;
     font-weight: bold;
-<<<<<<< HEAD
     color: var(--white);
     font-family: 'Lobster', cursive;
 
@@ -59,11 +52,6 @@ header .logo a
 {
     text-decoration: none;
     color: var(--white)
-=======
-    color: var(--blue);
-    font-family: 'Lobster', cursive;
-/* font-family: 'Open Sans Condensed', sans-serif; */
->>>>>>> 0d5749e25e9b62ec71304d1cf7b4deb00c29fd02
 }
 
 header nav {
@@ -205,10 +193,7 @@ header .menu-toggle {
 .about-description 
 {
     margin-bottom: 15px;
-<<<<<<< HEAD
     font-size: 18px;
-=======
->>>>>>> 0d5749e25e9b62ec71304d1cf7b4deb00c29fd02
 }
 .about-description h4
 {
@@ -220,7 +205,6 @@ header .menu-toggle {
     background-color: var(--blue);
     color: var(--white);
 }
-<<<<<<< HEAD
 .about-img 
 {
     cursor: pointer;
@@ -264,13 +248,6 @@ header .menu-toggle {
 #what-we-do ul li
 {
     margin-left: 20px;
-=======
-
-.intro-container
-{
-    padding: 0px;
-    margin-top: 10px;
->>>>>>> 0d5749e25e9b62ec71304d1cf7b4deb00c29fd02
 }
 
 /* --------------------------------
@@ -337,7 +314,6 @@ header .menu-toggle {
 |  Breadcrumb
 ---------------------------------*/
 .search-property {
-<<<<<<< HEAD
     background-color: var(--blue);
     z-index: 0;
     height: 200px;
@@ -345,15 +321,6 @@ header .menu-toggle {
 }
 .property-title {
     margin-top: 80px;
-=======
-    background-color: var(--gold);
-    z-index: 0;
-    margin-top: 60px;
-    height: 150px;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-.property-title {
->>>>>>> 0d5749e25e9b62ec71304d1cf7b4deb00c29fd02
     padding: 10px;
 }
 .property-title h5 {
@@ -388,7 +355,6 @@ header .menu-toggle {
 /* --------------------------------
 |   Register
 ---------------------------------*/
-<<<<<<< HEAD
 #register 
 {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -400,16 +366,6 @@ header .menu-toggle {
 .admission h2 
 {
     font-size: 25px;
-=======
-.admission
-{
-    margin-top: 10px;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-.admission h2 
-{
-    font-size: 15px;
->>>>>>> 0d5749e25e9b62ec71304d1cf7b4deb00c29fd02
     font-weight: bold;
 }
 .admission h5 
@@ -453,16 +409,11 @@ font-size: 12px;
 {
     font-size: 12px;
     font-weight: bold;
-<<<<<<< HEAD
     color: var(--gold);
-=======
-    color: var(--blue);
->>>>>>> 0d5749e25e9b62ec71304d1cf7b4deb00c29fd02
 }
 
 .fees-per-quarter .fees-table 
 {
-<<<<<<< HEAD
     background-color: var(--cream-white);
     width: 80%;
     color: var(--blue);
@@ -470,25 +421,11 @@ font-size: 12px;
     font-weight: normal;
     border-top: 5px solid var(--blue);
     padding: 15px;
-=======
-    background-color: var(--blue);
-    width: 80%;
-    color: var(--white);
-    font-size: 12px;
-    font-weight: normal;
-    border-top: 5px solid var(--gold);
-    padding: 15px;
-    font-family: 'Open Sans Condensed', sans-serif;
->>>>>>> 0d5749e25e9b62ec71304d1cf7b4deb00c29fd02
 }
 .fees-per-quarter .fees-table tr 
 {
     height: 55px;
-<<<<<<< HEAD
     border-bottom: 1px solid var(--white);
-=======
-    border-bottom: 1px solid var(--gold);
->>>>>>> 0d5749e25e9b62ec71304d1cf7b4deb00c29fd02
     
     
 }
@@ -500,10 +437,6 @@ font-size: 12px;
 {
     margin-top: 10px;
     margin-bottom: 10px;
-<<<<<<< HEAD
-=======
-    font-family: 'Open Sans Condensed', sans-serif;
->>>>>>> 0d5749e25e9b62ec71304d1cf7b4deb00c29fd02
 }
 .download-prospectus p
 {
@@ -514,10 +447,6 @@ font-size: 12px;
 .fees-bank-account
 {
     margin-top: 10px;
-<<<<<<< HEAD
-=======
-    font-family: 'Open Sans Condensed', sans-serif;
->>>>>>> 0d5749e25e9b62ec71304d1cf7b4deb00c29fd02
 }
 .fees-bank-account h5 
 {
@@ -532,7 +461,6 @@ font-size: 12px;
 {
     margin-top: 20px;
     font-size: 15px;
-<<<<<<< HEAD
 }
 /* --------------------------------
 |   Register
@@ -582,12 +510,6 @@ font-size: 12px;
 }
 /* --------------------------------
 |   footer
-=======
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-/* --------------------------------
-|   Register
->>>>>>> 0d5749e25e9b62ec71304d1cf7b4deb00c29fd02
 ---------------------------------*/
 
 
@@ -647,8 +569,4 @@ font-size: 12px;
     border-top: 5px solid var(--gold);
     padding: 15px;
 }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 0d5749e25e9b62ec71304d1cf7b4deb00c29fd02
