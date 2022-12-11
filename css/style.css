@@ -227,7 +227,9 @@ header .menu-toggle {
     justify-content: center;
     align-items: center;
 }
-
+.school-logo img {
+    width: 350px;;
+}
 #what-we-do 
 {
     margin-top: 20px;
